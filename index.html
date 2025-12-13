@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="우리도 뛴다 - 러닝 크루 도전기">
+  <meta property="og:description" content="평범한 사람들의 10km 마라톤 완주 도전기">
+  <title>우리도 뛴다 — Episodes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="common-header"></div>
+  <script src="episodes-common/load-header.js"></script>
+
+  <main class="container">
+    <section class="hero">
+      <div class="video-bg">
+        <!-- Using Episode 1 video as placeholder -->
+        <video autoplay muted loop playsinline>
+          <source src="episode1/03.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+      </div>
+      <div class="hero-content">
+        <h1>우리도 뛴다</h1>
+        <p>평범한 사람들의 10km 마라톤 도전기</p>
+        <a class="btn-primary" href="#episodes">정주행 시작하기</a>
+      </div>
+    </section>
+
+    <section id="episodes">
+      <h2 class="section-title">📚 에피소드 목록 (총 20부작)</h2>
+
+      <div class="episode-grid">
+        <!-- ACT 1 -->
+        <a class="ep-btn" href="episode1/index.html" style="background-image: url('episode1/01.png')">Episode 1<br><span
+            style="font-size:0.8em">완벽한 계획</span></a>
+        <a class="ep-btn" href="episode2/index.html" style="background-image: url('episode2/01.png')">Episode 2<br><span
+            style="font-size:0.8em">페이스 격차</span></a>
+        <a class="ep-btn" href="episode3/index.html" style="background-image: url('episode3/01.png')">Episode 3<br><span
+            style="font-size:0.8em">런라니</span></a>
+        <a class="ep-btn" href="episode4/index.html" style="background-image: url('episode4/01.png')">Episode 4<br><span
+            style="font-size:0.8em">카드값 폭탄</span></a>
+        <a class="ep-btn" href="episode5/index.html" style="background-image: url('episode5/01.png')">Episode 5<br><span
+            style="font-size:0.8em">오지랖</span></a>
+
+        <!-- ACT 2 -->
+        <a class="ep-btn" href="episode6/index.html" style="background-image: url('episode6/01.png')">Episode 6<br><span
+            style="font-size:0.8em">연애 목적</span></a>
+        <a class="ep-btn" href="episode7/index.html" style="background-image: url('episode7/01.png')">Episode 7<br><span
+            style="font-size:0.8em">출입금지</span></a>
+        <a class="ep-btn" href="episode8/index.html" style="background-image: url('episode8/01.png')">Episode 8<br><span
+            style="font-size:0.8em">분열 위기</span></a>
+        <a class="ep-btn" href="episode9/index.html" style="background-image: url('episode9/01.png')">Episode 9<br><span
+            style="font-size:0.8em">경제적 부담</span></a>
+        <a class="ep-btn" href="episode10/index.html" style="background-image: url('episode10/01.png')">Episode
+          10<br><span style="font-size:0.8em">중간 평가</span></a>
+
+        <!-- ACT 3 -->
+        <a class="ep-btn" href="episode11/index.html" style="background-image: url('episode11/01.png')">Episode
+          11<br><span style="font-size:0.8em">자정 노력</span></a>
+        <a class="ep-btn" href="episode12/index.html" style="background-image: url('episode12/01.png')">Episode
+          12<br><span style="font-size:0.8em">기록 향상</span></a>
+        <a class="ep-btn" href="episode13/index.html" style="background-image: url('episode13/01.png')">Episode
+          13<br><span style="font-size:0.8em">타 크루 교류</span></a>
+        <a class="ep-btn" href="episode14/index.html" style="background-image: url('episode14/01.png')">Episode
+          14<br><span style="font-size:0.8em">본격 훈련</span></a>
+        <a class="ep-btn" href="episode15/index.html" style="background-image: url('episode15/01.png')">Episode
+          15<br><span style="font-size:0.8em">부상 발생</span></a>
+
+        <!-- ACT 4 -->
+        <a class="ep-btn" href="episode16/index.html" style="background-image: url('episode16/01.png')">Episode
+          16<br><span style="font-size:0.8em">최종 점검</span></a>
+        <a class="ep-btn" href="episode17/index.html" style="background-image: url('episode17/01.png')">Episode
+          17<br><span style="font-size:0.8em">각자의 다짐</span></a>
+        <a class="ep-btn" href="episode18/index.html" style="background-image: url('episode18/01.png')">Episode
+          18<br><span style="font-size:0.8em">대회 당일(1)</span></a>
+        <a class="ep-btn" href="episode19/index.html" style="background-image: url('episode19/01.png')">Episode
+          19<br><span style="font-size:0.8em">대회 당일(2)</span></a>
+        <a class="ep-btn" href="episode20/index.html" style="background-image: url('episode20/01.png')">Episode
+          20<br><span style="font-size:0.8em">새로운 시작</span></a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    © We Also Run Project
+  </footer>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Simple random video background logic if multiple assets exist
+      const videos = [
+        'episode1/06.mp4' // Using known asset
+      ];
+
+      const randomVideo = videos[Math.floor(Math.random() * videos.length)];
+      const videoElement = document.querySelector('.video-bg video');
+      if (videoElement) {
+        const sourceElement = videoElement.querySelector('source');
+        if (sourceElement) {
+          // sourceElement.src = randomVideo; // Uncomment if multiple
+          videoElement.load();
+          videoElement.play().catch(e => console.log("Auto-play prevented:", e));
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
