@@ -14,7 +14,7 @@
 
 웹사이트에서 소설과 실습 프롬프트를 생생하게 체험해보세요.
 
-### 👉 [웹소설 읽으러 가기 (Click)](https://moma71.github.io/publicAgent_S1/)
+### 👉 [웹소설 읽으러 가기 (Click)](https://moma71.github.io/RunningCrew/)
 
 <br>
 
