@@ -28,12 +28,13 @@
 ```markdown
 (Masterpiece), (Best Quality), Korean action manhwa style, high contrast, sharp
 lineart, dark dramatic atmosphere, strong rim lighting, cinematic lighting,
-detailed shading, 8k resolution, webtoon aesthetic, close-up portrait of Park
-Min-su, Korean male 38 years old, sharp angular jawline, kind but sharp eyes
-wearing black-framed glasses, distinct worry lines on forehead, short neat black
-hair slightly thinning, light stubble, neutral serious expression, looking
-straight at camera, detailed skin texture with slight sweat, dark night
-background with blue rim lighting from side.
+detailed shading, 8k resolution, webtoon aesthetic,
+
+close-up portrait of Park Min-su, Korean male 38 years old, sharp angular
+jawline, kind but sharp eyes wearing black-framed glasses, distinct worry lines
+on forehead, short neat black hair slightly thinning, light stubble, neutral
+serious expression, looking straight at camera, detailed skin texture with
+slight sweat, dark night background with blue rim lighting from side.
 ```
 
 ### 1-2. 표정 모음 (Expressions Sheet)
@@ -138,14 +139,13 @@ eye visible behind the lens, reddish-pink glow on the frames.
 
 ### 2-5. 대표 포즈 (Signature Pose)
 
-```markdown
-(Masterpiece), (Best Quality), Korean action manhwa style, high contrast, dark
-dramatic atmosphere, cinematic lighting, speed lines, impact frame style,
-dynamic action shot, Jung Yu-mi in signature pose: wiping sweat and tears from
-her face with a fierce determined glare, glasses pushed up, clenched fist,
-sweating profusely, intense expression, explosive unstable pink energy particles
-and aura rising around her, dramatic angle, dark night background.
-```
+````markdown
+(Masterpiece), (Best Quality), Korean action manhwa style, high contrast, sharp
+lineart, dramatic lighting, extreme close-up macro shot of Jung Yu-mi's face
+area, focusing on her black rectangular glasses, lenses are reflecting sharp
+streetlights and slightly fogged with sweat, heavy sweat droplets running down
+her temple and cheek, strands of messy hair stuck to skin, intense determined
+eye visible behind the lens, reddish-pink glow on the frames.
 
 ---
 
@@ -164,6 +164,7 @@ up covering upper half of face, deep shadow cast over eyes, eyes glowing
 strangely with purple light in the shadow, dark night background, minimal
 lighting, mysterious vibe.
 ```
+````
 
 ### 3-2. 표정 모음 (Expressions Sheet)
 
