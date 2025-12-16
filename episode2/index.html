@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../episodes-common/episode.css">
 </head>
+
 <body>
     <div id="common-header"></div>
     <script src="../episodes-common/load-header.js" defer></script>
@@ -81,7 +83,8 @@
             <p>"...괜찮아."</p>
             <p>"아이고, 말이 없어가지고. 같이 가자 카이."</p>
             <p>태수는 대답 없이 조금 앞으로 나왔다.</p>
-            <div class="scene-media"><img class="scene-image" src="03.png" alt="느린조_세명_함께뛰는모습"></div>
+            <div class="scene-media"><video class="scene-video" src="03.mp4" controls title="느린조_세명_함께뛰는모습"></video>
+            </div>
             <div class="separator"></div>
             <h3>4. 2km 지점, 오후 7시 30분</h3>
             <p>빠른 조의 강석철이 숨을 헐떡이기 시작했다.</p>
@@ -175,18 +178,19 @@
             <div class="separator"></div>
             <h3>7. 박민수의 방, 밤 11시</h3>
             <p>민수는 노트북을 열고 ChatGPT에 접속했다.</p>
-            <p><strong>[박민수]</strong> 오늘 러닝 기록 정리해줘. 거리 5km, 시간 34분. 페이스별로 조를 나눠서 뛰었는데, 각 조마다 페이스 차이가 꽤 있었어. 느린 조가 가장 행복해 보였어.</p>
+            <p><strong>[박민수]</strong> 오늘 러닝 기록 정리해줘. 거리 5km, 시간 34분. 페이스별로 조를 나눠서 뛰었는데, 각 조마다 페이스 차이가 꽤 있었어. 느린 조가 가장
+                행복해 보였어.</p>
             <p><strong>[ChatGPT]</strong> 정리해드릴게요!</p>
-                <div class="prompt-code">
-[2025년 12월 15일 러닝 일지]
-- 거리: 5km
-- 시간: 34분
-- 평균 페이스: 6분 48초/km
-- 조 편성: 빠른 조 / 중간 조 / 느린 조
-- 특이사항: 느린 조가 가장 즐거워 보였음
-- 메모: 페이스가 전부가 아니다. 즐거움이 중요.
-- 다음 목표: 개인 페이스를 존중하는 크루 문화 만들기
-                </div>
+            <div class="prompt-code">
+                [2025년 12월 15일 러닝 일지]
+                - 거리: 5km
+                - 시간: 34분
+                - 평균 페이스: 6분 48초/km
+                - 조 편성: 빠른 조 / 중간 조 / 느린 조
+                - 특이사항: 느린 조가 가장 즐거워 보였음
+                - 메모: 페이스가 전부가 아니다. 즐거움이 중요.
+                - 다음 목표: 개인 페이스를 존중하는 크루 문화 만들기
+            </div>
             <p>민수는 미소를 지었다. 그리고 노션에 복사했다.</p>
             <p>"페이스가 전부가 아니지..."</p>
             <div class="scene-media"><img class="scene-image" src="07.png" alt="민수_노트북_미소"></div>
@@ -239,39 +243,39 @@
             <div class="separator"></div>
             <h3>💡 Prompt (실전 템플릿)</h3>
             <h4>**기본 분석 템플릿**</h4>
-                <div class="prompt-code">
-내 최근 러닝 기록이야:
-- 1회차: 3km, 21분
-- 2회차: 5km, 34분  
-- 3회차: 4km, 28분
-현재 내 수준을 분석해주고, 다음 목표를 추천해줘.
-                </div>
+            <div class="prompt-code">
+                내 최근 러닝 기록이야:
+                - 1회차: 3km, 21분
+                - 2회차: 5km, 34분
+                - 3회차: 4km, 28분
+                현재 내 수준을 분석해주고, 다음 목표를 추천해줘.
+            </div>
             <h4>**목표 중심 템플릿**</h4>
-                <div class="prompt-code">
-나는 러닝 초보야. 목표는 3개월 안에 10km 완주하는 거야.
-최근 기록:
-- 5km: 35분 (힘들었어)
-- 3km: 20분 (괜찮았어)
-이 목표를 달성하려면 어떤 훈련 계획이 필요해?
-주간 계획도 짜줘.
-                </div>
+            <div class="prompt-code">
+                나는 러닝 초보야. 목표는 3개월 안에 10km 완주하는 거야.
+                최근 기록:
+                - 5km: 35분 (힘들었어)
+                - 3km: 20분 (괜찮았어)
+                이 목표를 달성하려면 어떤 훈련 계획이 필요해?
+                주간 계획도 짜줘.
+            </div>
             <h4>**페이스 조언 템플릿**</h4>
-                <div class="prompt-code">
-나는 5km를 30분에 뛰고 싶어.
-지금은 5km에 35분 걸려.
-현재 내 페이스는 7분/km인데, 6분/km로 줄이려면 어떻게 해야 해?
-단계별로 알려줘.
-                </div>
+            <div class="prompt-code">
+                나는 5km를 30분에 뛰고 싶어.
+                지금은 5km에 35분 걸려.
+                현재 내 페이스는 7분/km인데, 6분/km로 줄이려면 어떻게 해야 해?
+                단계별로 알려줘.
+            </div>
             <h4>**주간 계획 템플릿**</h4>
-                <div class="prompt-code">
-내 현재 수준:
-- 최대 거리: 5km
-- 평균 페이스: 7분/km
-- 주 3회 런닝 가능
-목표: 2개월 후 10km 완주
-주 3회 일정으로 주간 훈련 계획 짜줘.
-월/수/금으로 해줘.
-                </div>
+            <div class="prompt-code">
+                내 현재 수준:
+                - 최대 거리: 5km
+                - 평균 페이스: 7분/km
+                - 주 3회 런닝 가능
+                목표: 2개월 후 10km 완주
+                주 3회 일정으로 주간 훈련 계획 짜줘.
+                월/수/금으로 해줘.
+            </div>
             <div class="separator"></div>
             <h3>🎯 Real-Life Tips (실전 팁)</h3>
             <p>1. <strong>솔직하게 입력:</strong> "힘들었어", "쉬웠어" 같은 느낌도 중요</p>
@@ -290,4 +294,5 @@
         </div>
     </div>
 </body>
+
 </html>
